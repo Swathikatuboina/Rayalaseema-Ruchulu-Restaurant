@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Rayalseema Ruchulu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+     
+    img {
+        max-width: 100px;
+        max-height: 100px;
+        margin: 10px 0;
+        display: block;
+
+    }
+   
+</style>
+<body>
+    <header>
+        <h1>Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="Menu" class="section">
+        <h2>Menu</h2>
+
+        <div class="Menu-category">
+            <h3>Tiffins</h3>
+        </div>
+         <div class="menu-item">
+                <h4>Idly </h4>
+                <img src="Assets/idly.jpg" alt="Idly">
+                <p>Soft and fluffy steamed rice cakes. Served with peanut chutney, coconut chutney, and ghee karam. </p>
+                <span data-price="50">₹50</span>
+                <label for="idly-quantity">Choose quantity:</label>
+                <input type="number" id="idly-quantity" name="idly-quantity" min="1" max="10" value="1">
+            </div>
+        <div class="menu-item"><h4>Dosa</h4>
+            <img src="Assets/Dosa.jpg".jpg" alt="Dosa">
+            <p>A thin, crispy fermented pancake. Served with peanut chutney, coconut chutney, and ghee karam.</p>
+            <span data-price="40">₹40</span>
+            <label for="dosa-quantity">Choose quantity:</label>
+            <input type="number" id="dosa-quantity" name="dosa-quantity" min="1" max="10" value="1">
+            </div>
+                
+                <!-- Subcategory: Dosa Varieties -->
+                <ul>
+                    <li>
+                        <h5>Masala Dosa</h5>
+                        <img src="Assets/masala-dosa.jpg" alt="Masala Dosa">
+                        <p>Dosa stuffed with spiced potato filling.</p>
+                        <span data-price="60">₹60</span>
+                        <label for="masala-dosa-quantity">Choose quantity:</label>
+                        <input type="number" id="masala-dosa-quantity" name="masala-dosa-quantity" min="1" max="10" value="1">
+                    </li>
+                    <li>
+                        <h5>Egg Dosa</h5>
+                        <img src="Assets/egg-dosa.jpg" alt="Egg Dosa">
+                        <p>Dosa stuffed with a scrambled egg filling.</p>
+                        <span data-price="70">₹70</span>
+                        <label for="egg-dosa-quantity">Choose quantity:</label>
+                        <input type="number" id="egg-dosa-quantity" name="egg-dosa-quantity" min="1" max="10" value="1">
+                    </li>
+                    <li>
+                        <h5>Onion Dosa</h5>
+                        <img src="Assets/onion dosa.jpg" alt="Onion Dosa">
+                        <p>Dosa topped with sautéed onions.</p>
+                        <span data-price="50">₹50</span>
+                        <label for="onion-dosa-quantity">Choose quantity:</label>
+                        <input type="number" id="onion-dosa-quantity" name="onion-dosa-quantity" min="1" max="10" value="1">
+                    </li>
+                    <li>
+                        <h5>Paneer Dosa</h5>
+                        <img src="Assets/paneer dosa.jpg" alt="Paneer Dosa">
+                        <p>Dosa stuffed with spiced paneer (cottage cheese) filling.</p>
+                        <span data-price="80">₹80</span>
+                        <label for="paneer-dosa-quantity">Choose quantity:</label>
+                        <input type="number" id="paneer-dosa-quantity" name="paneer-dosa-quantity" min="1" max="10" value="1">
+                    </li>
+                    <li>
+                        <h5>Ghee Karam Dosa (Rayalseema Special)</h5>
+                        <img src="Assets/ghee karam dosa.jpg" alt="Ghee Karam Dosa">
+                        <p>Dosa smeared with ghee and sprinkled with chana dal powder.</p>
+                        <span data-price="55">₹55</span>
+                        <label for="ghee-karam-dosa-quantity">Choose quantity:</label>
+                        <input type="number" id="ghee-karam-dosa-quantity" name="ghee-karam-dosa-quantity" min="1" max="10" value="1">
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Add other tiffin items similarly -->
+            
+        </div>
+
+        <div class="menu-category">
+            <h3>Rayalseema Lunch Special Dishes</h3>
+            <div class="menu-item">
+                <h4>Ragi Sangati</h4>
+                <img src="Assets/ragi sangati.jpg" alt="Ragi Sangati">
+                <p>A nutritious millet-based dish, served with Natukodi Chicken, Erra Karam, and Egg Burji.</p>
+                <span data-price="179">₹179</span>
+                <label for="ragi-sangati-quantity">Choose quantity:</label>
+                <input type="number" id="ragi-sangati-quantity" name="ragi-sangati-quantity" min="1" max="10" value="1">
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Non Vegetarian</h3>
+            <div class="menu-item">
+                <h4>Butter Chicken</h4>
+                <img src="Assets/butter chicken.jpg" alt="Butter Chicken">
+                <p>Tender chicken pieces cooked in a rich, creamy tomato sauce.</p>
+                <span data-price="199">₹199</span>
+                <label for="butter-chicken-quantity">Choose quantity:</label>
+                <input type="number" id="butter-chicken-quantity" name="butter-chicken-quantity" min="1" max="10" value="1">
+            </div>
+            
+            <div class="menu-item">
+                <h4>Chicken Biryani</h4>
+                <img src="Assets/chicken-biryani.jpg" alt="Chicken Biryani">
+                <p>Fragrant rice cooked with marinated chicken and aromatic spices.</p>
+                <span data-price="219">₹219</span>
+                <label for="chicken-biryani-quantity">Choose quantity:</label>
+                <input type="number" id="chicken-biryani-quantity" name="chicken-biryani-quantity" min="1" max="10" value="1">
+            </div>
+            
+            <div class="menu-item">
+                <h4>Mutton Biryani</h4>
+                <img src="Assets/mutton-biryani.jpg" alt="Mutton Biryani">
+                <p>Fragrant rice cooked with marinated mutton and aromatic spices.</p>
+                <span data-price="319">₹319</span>
+                <label for="mutton-biryani-quantity">Choose quantity:</label>
+                <input type="number" id="mutton-biryani-quantity" name="mutton-biryani-quantity" min="1" max="10" value="1">
+            </div>
+            
+            <div class="menu-item">
+                <h4>Chicken 65</h4>
+                <img src="Assets/chicken 65.jpg" alt="Chicken 65">
+                <p>Spicy, deep-fried chicken bites.</p>
+                <span data-price="149">₹149</span>
+                <label for="chicken-65-quantity">Choose quantity:</label>
+                <input type="number" id="chicken-65-quantity" name="chicken-65-quantity" min="1" max="10" value="1">
+            </div>
+            
+            <div class="menu-item">
+                <h4>Fish Curry</h4>
+                <img src="Assets/fish curry.jpg" alt="Fish Curry">
+                <p>Flavorful fish curry cooked with coconut milk and spices.</p>
+                <span data-price="169">₹169</span>
+                <label for="fish-curry-quantity">Choose quantity:</label>
+                <input type="number" id="fish-curry-quantity" name="fish-curry-quantity" min="1" max="10" value="1">
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Non Veg Soups</h3>
+            <div class="menu-item">
+                <h4>Chicken Soup</h4>
+                <img src="Assets/chicken soop.jpg" alt="Chicken Soup">
+                <p>A comforting soup made with chicken and vegetables.</p>
+                <span data-price="79">₹79</span>
+                <label for="chicken-soup-quantity">Choose quantity:</label>
+                <input type="number" id="chicken-soup-quantity" name="chicken-soup-quantity" min="1" max="10" value="1">
+            </div>
+            <div class="menu-item">
+                <h4>Mutton Bones Soup</h4>
+                <img src="Assets/mutton soop.jpg" alt="Mutton Bones Soup">
+                <p>A hearty broth made from mutton bones, cooked with aromatic spices.</p>
+                <span data-price="89">₹89</span>
+                <label for="mutton-bones-soup-quantity">Choose quantity:</label>
+                <input type="number" id="mutton-bones-soup-quantity" name="mutton-bones-soup-quantity" min="1" max="10" value="1">
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Vegetarian</h3>
+            <div class="menu-item">
+                <h4>Paneer Butter Masala</h4>
+                <img src="Assets/paneer butter masala.jpg" alt="Paneer Butter Masala">
+                <p>Soft cottage cheese cubes cooked in a rich tomato and cream sauce.</p>
+                <span data-price="169">₹169</span>
+                <label for="paneer-butter-masala-quantity">Choose quantity:</label>
+                <input type="number" id="paneer-butter-masala-quantity" name="paneer-butter-masala-quantity" min="1" max="10" value="1">
+            </div>
+            
+            <div class="menu-item">
+                <h4>Vegetable Biryani</h4>
+                <img src="Assets/vegetable biryani.jpg" alt="Vegetable Biryani">
+                <p>Fragrant rice cooked with assorted vegetables and aromatic spices.</p>
+                <span data-price="129">₹129</span>
+                <label for="vegetable-biryani-quantity">Choose quantity:</label>
+                <input type="number" id="vegetable-biryani-quantity" name="vegetable-biryani-quantity" min="1" max="10" value="1">
+            </div>
+            
+            <div class="menu-item">
+                <h4>Palak Paneer</h4>
+                <img src="Assets/palak paneer.jpg" alt="Palak Paneer">
+                <p>Paneer (cottage cheese) cooked in a creamy spinach sauce.</p>
+                <span data-price="149">₹149</span>
+                <label for="palak-paneer-quantity">Choose quantity:</label>
+                <input type="number" id="palak-paneer-quantity" name="palak-paneer-quantity" min="1" max="10" value="1">
+            </div>
+            
+            <div class="menu-item">
+                <h4>Mushroom Masala</h4>
+                <img src="Assets/mashroom masala.jpg" alt="Mushroom Masala">
+                <p>Fresh mushrooms cooked in a spiced tomato-based sauce.</p>
+                <span data-price="119">₹119</span>
+                <label for="mushroom-masala-quantity">Choose quantity:</label>
+                <input type="number" id="mushroom-masala-quantity" name="mushroom-masala-quantity" min="1" max="10" value="1">
+            </div>
+            
+            <div class="menu-item">
+                <h4>Aloo Gobi</h4>
+                <img src="Assets/aloo gobi.jpg" alt="Aloo Gobi">
+                <p>Potatoes and cauliflower florets cooked with Indian spices.</p>
+                <span data-price="109">₹109</span>
+                <label for="aloo-gobi-quantity">Choose quantity:</label>
+                <input type="number" id="aloo-gobi-quantity" name="aloo-gobi-quantity" min="1" max="10" value="1">
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Desserts</h3>
+            <div class="menu-item">
+                <h4>Gulabjamun</h4>
+                <img src="Assets/gulabjamoon.jpg" alt="Gulabjamun">
+                <p>Deep-fried milk balls soaked in rose-scented syrup.</p>
+                <span data-price="59">₹59</span>
+                <label for="gulabjamun-quantity">Choose quantity:</label>
+                <input type="number" id="gulabjamun-quantity" name="gulabjamun-quantity" min="1" max="10" value="1">
+            </div>
+            <div class="menu-item">
+                <h4>Rasamalay</h4>
+                <img src="Assets/rasamalay.jpg" alt="Rasamalay">
+                <p>Spongy, sweet dumplings made from cottage cheese, soaked in saffron-flavored milk.</p>
+                <span data-price="69">₹69</span>
+                <label for="rasamalay-quantity">Choose quantity:</label>
+                <input type="number" id="rasamalay-quantity" name="rasamalay-quantity" min="1" max="10" value="1">
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Ice Creams</h3>
+            <div class="menu-item">
+                <h4>Vanilla</h4>
+                <img src="Assets/vanila ice cream.jpg" alt="Vanilla">
+                <p>Classic vanilla ice cream.</p>
+                <span data-price="49">₹49</span>
+                <label for="vanilla-quantity">Choose quantity:</label>
+                <input type="number" id="vanilla-quantity" name="vanilla-quantity" min="1" max="10" value="1">
+            </div>
+            <div class="menu-item">
+                <h4>Chocolate</h4>
+                <img src="Assets/chocolate ice cream.jpg" alt="Chocolate">
+                <p>Rich and creamy chocolate ice cream.</p>
+                <span data-price="59">₹59</span>
+                <label for="chocolate-quantity">Choose quantity:</label>
+                <input type="number" id="chocolate-quantity" name="chocolate-quantity" min="1" max="10" value="1">
+            </div>
+            <div class="menu-item">
+                <h4>Butter Scotch</h4>
+                <img src="Assets/butter scotch.jpg" alt="Butter Scotch">
+                <p>Smooth butterscotch-flavored ice cream.</p>
+                <span data-price="69">₹69</span>
+                <label for="butter-scotch-quantity">Choose quantity:</label>
+                <input type="number" id="butter-scotch-quantity" name="butter-scotch-quantity" min="1" max="10" value="1">
+            </div>
+        </div>
+
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var quantityInputs = document.querySelectorAll('input[type="number"]');
+            quantityInputs.forEach(function(input) {
+                input.addEventListener('input', function() {
+                    var quantity = parseInt(this.value);
+                    if (!isNaN(quantity) && quantity >= 1) {
+                        var priceElement = this.parentElement.querySelector('span[data-price]');
+                        var price = parseInt(priceElement.getAttribute('data-price'));
+                        var total = quantity * price;
+                        priceElement.textContent = "₹" + total.toFixed(2);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

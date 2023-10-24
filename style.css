@@ -1,0 +1,119 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h4 {
+    color: black;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: black;
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about, #contact {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2, #contact h2 {
+    color: #333;
+}
+
+#about p, #contact p {
+    font-size: 16px;
+    color: #777;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+section p {
+    font-size: 18px;
+    color: #555;
+}
+/* Section headers (Menu, About, Contact) */
+.section h2 {
+    font-family: 'Your Font for Sections', sans-serif;
+    font-size: 36px; /* Adjust size as needed */
+    color: #333; /* Adjust color as needed */
+}
+
+/* Category headers (Tiffins, Ice Creams, Desserts, etc.) */
+.menu-category h3 {
+    font-family: 'Your Font for Categories', sans-serif;
+    font-size: 30px; /* Adjust size as needed */
+    color: #555; /* Adjust color as needed */
+}
+
+/* Item headers (Idly, Dosa, etc.) */
+.menu-item h4 {
+    font-family: 'Your Font for Items', sans-serif;
+    font-size: 24px; /* Adjust size as needed */
+    color: #777; /* Adjust color as needed */
+}
+
+/* Item descriptions */
+.menu-item p {
+    font-family: 'Your Font for Descriptions', sans-serif;
+    font-size: 18px; /* Adjust size as needed */
+    color: #999; /* Adjust color as needed */
+}
+

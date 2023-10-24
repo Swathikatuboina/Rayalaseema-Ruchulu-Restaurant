@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayalseema Ruchulu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-image: url('Assets/ragi\ sangati.jpg'); 
+        background-size: contain;
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+</style>
+<body>
+    <header>
+        <h1 style="font-size: 4em;">Welcome to Rayalseema Ruchulu</h1>
+        <p style="font-size: 2em;">Explore all varieties of dishes at One palce!</p>
+        <nav>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+ 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var quantityInputs = document.querySelectorAll('input[type="number"]');
+            quantityInputs.forEach(function(input) {
+                input.addEventListener('input', function() {
+                    var quantity = parseInt(this.value);
+                    if (!isNaN(quantity) && quantity >= 1) {
+                        var priceElement = this.parentElement.querySelector('span[data-price]');
+                        var price = parseInt(priceElement.getAttribute('data-price'));
+                        var total = quantity * price;
+                        priceElement.textContent = "₹" + total.toFixed(2);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
